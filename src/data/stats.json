@@ -1,0 +1,33 @@
+{
+  "lastUpdated": "August 2025",
+  "metrics": [
+    {
+      "label": "Monthly Transactions",
+      "value": "20B+",
+      "trend": "up",
+      "trendValue": "15% YoY",
+      "source": "NPCI"
+    },
+    {
+      "label": "Transaction Volume",
+      "value": "₹30 Lakh Cr",
+      "trend": "up",
+      "trendValue": "40% YoY",
+      "source": "Economic Times"
+    },
+    {
+      "label": "Live Banks",
+      "value": "684+",
+      "trend": "neutral",
+      "trendValue": "Stable",
+      "source": "NPCI"
+    },
+    {
+      "label": "Autopay Growth",
+      "value": "2x",
+      "trend": "up",
+      "trendValue": "Doubled YoY",
+      "source": "Industry Reports"
+    }
+  ]
+}

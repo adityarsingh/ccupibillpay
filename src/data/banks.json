@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hdfc",
+    "name": "HDFC Bank",
+    "handle": "@hdfcbankcc",
+    "format": "Credit Card Number + @hdfcbankcc",
+    "example": "4123456789012345@hdfcbankcc",
+    "inputType": "card_full"
+  },
+  {
+    "id": "sbi",
+    "name": "SBI Card",
+    "handle": "@sbi",
+    "format": "sbicard. + Credit Card Number + @sbi",
+    "example": "sbicard.4123456789012345@sbi",
+    "inputType": "card_full",
+    "prefix": "sbicard."
+  },
+  {
+    "id": "idfc",
+    "name": "IDFC FIRST Bank",
+    "handle": "@idfcbank",
+    "format": "Credit Card Number + .cc + @idfcbank",
+    "example": "4123456789012345.cc@idfcbank",
+    "inputType": "card_full",
+    "suffix": ".cc"
+  },
+  {
+    "id": "yes",
+    "name": "Yes Bank",
+    "handle": "@yesbank",
+    "format": "Credit Card Number + @yesbank",
+    "example": "4123456789012345@yesbank",
+    "inputType": "card_full"
+  },
+  {
+    "id": "amex",
+    "name": "American Express",
+    "handle": "@sc",
+    "format": "aebc + 15-Digit Card Number + @sc",
+    "example": "aebc371234567890123@sc",
+    "inputType": "card_full",
+    "prefix": "aebc"
+  },
+  {
+    "id": "axis",
+    "name": "Axis Bank",
+    "handle": "@axisbank",
+    "format": "cc.91 + Mobile No + Last 4 Digits + @axisbank",
+    "example": "cc.9198123456781212@axisbank",
+    "inputType": "mobile_last4",
+    "prefix": "cc.91"
+  },
+  {
+    "id": "icici",
+    "name": "ICICI Bank",
+    "handle": "@icici",
+    "format": "ccpay. + Mobile No + Last 4 Digits + @icici",
+    "example": "ccpay.98123456781212@icici",
+    "inputType": "mobile_last4",
+    "prefix": "ccpay."
+  },
+  {
+    "id": "au",
+    "name": "AU Small Finance Bank",
+    "handle": "@aubank",
+    "format": "aucc. + Mobile No + Last 4 Digits + @aubank",
+    "example": "aucc.98123456781212@aubank",
+    "inputType": "mobile_last4",
+    "prefix": "aucc."
+  }
+]

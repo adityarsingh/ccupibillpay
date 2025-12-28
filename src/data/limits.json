@@ -1,0 +1,24 @@
+{
+    "limits": [
+        {
+            "category": "Credit Card Bill Payments",
+            "limit": "₹5 Lakh",
+            "description": "Per transaction limit for credit card bill payments via UPI."
+        },
+        {
+            "category": "Capital Markets",
+            "limit": "₹5 Lakh",
+            "description": "Investments in mutual funds, insurance, etc."
+        },
+        {
+            "category": "Standard P2P",
+            "limit": "₹1 Lakh",
+            "description": "Daily limit for person-to-person transfers."
+        },
+        {
+            "category": "Medical & Education",
+            "limit": "₹5 Lakh",
+            "description": "Enhanced limits for verified medical and educational merchants."
+        }
+    ]
+}
