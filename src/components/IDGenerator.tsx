@@ -170,6 +170,27 @@ export default function IDGenerator() {
                         <p className="text-xs text-gray-500 mt-3">
                             *Please verify with your bank app before paying.
                         </p>
+
+                        <div className="grid grid-cols-2 gap-3 mt-6 pt-6 border-t border-white/5">
+                            <a
+                                href={`tez://upi/pay?pa=${generatedID}&pn=Credit Card Bill&cu=INR`}
+                                className="flex items-center justify-center gap-2 px-4 py-2.5 bg-[#1F1F1F] hover:bg-[#2D2D2D] border border-white/10 rounded-lg transition-all text-sm font-medium text-gray-200"
+                            >
+                                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.03 9.57H12.01V12.87H17.34C17.07 14.28 15.65 16.29 12.01 16.29C8.88 16.29 6.27 13.92 6.27 10.99C6.27 8.07 8.88 5.69 12.01 5.69C13.78 5.69 14.97 6.45 15.65 7.11L18.06 4.7C16.48 3.23 14.42 2.29 12.01 2.29C7.2 2.29 3 6.18 3 10.99C3 15.8 7.2 19.69 12.01 19.69C17.02 19.69 21.02 15.52 21.02 10.99C21.02 10.27 20.97 9.8 20.89 9.38L21.03 9.57Z" fill="white" />
+                                </svg>
+                                Google Pay
+                            </a>
+                            <a
+                                href={`phonepe://pay?pa=${generatedID}&pn=Credit Card Bill&cu=INR`}
+                                className="flex items-center justify-center gap-2 px-4 py-2.5 bg-[#5f259f] hover:bg-[#732cbd] border border-white/10 rounded-lg transition-all text-sm font-medium text-white"
+                            >
+                                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM15.5 13.5H13.5V17H11.5V13.5H9.5V11.5H11.5V9.5C11.5 8.4 12.4 7.5 13.5 7.5H15.5V9.5H13.5V11.5H15.5V13.5Z" fill="white" />
+                                </svg>
+                                PhonePe
+                            </a>
+                        </div>
                     </div>
                 )}
             </div>
